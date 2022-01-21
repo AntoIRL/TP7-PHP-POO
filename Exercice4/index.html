@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>TD3 - Exercice 4</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="affichage.php" method="post">
+            <h1>Veuillez renseigner les informations de deux personnes différentes</h1>
+            <br>
+            <div id="Perso1">
+                <p>Informations de la première personne :</p>
+                <label for="NomPerso1">Nom :</label>
+                <input type="text" name="NomPers1" id="NomPerso1" required minlength="1">
+                <label for="PrenomPerso1">Prénom :</label>
+                <input type="text" name="PrenomPerso1" id="PrenomPerso1" required minlength="1">
+                <label for="AgePerso1">Âge :</label>
+                <input type="text" name="AgePerso1" id="AgePerso1" required minlength="1">
+            </div>
+            <br>
+            <div id="Perso.2">
+                <p>Informations de la seconde personne :</p>
+                <label for="NomPerso2">Nom :</label>
+                <input type="text" name="NomPerso2" id="NomPerso2" required minlength="1">
+                <label for="PrenomPerso2">Prénom :</label>
+                <input type="text" name="PrenomPerso.2" id="PrenomPerso2" required minlength="1">
+                <label for="AgePerso2">Âge :</label>
+                <input type="text" name="AgePerso2" id="AgePerso2" required minlength="1">
+            </div>
+            <br>
+            <input type="submit" value="Envoyer le formulaire">
+        </form>
+    </body>
+</html>
